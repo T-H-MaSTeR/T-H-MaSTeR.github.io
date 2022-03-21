@@ -3,4 +3,6 @@ body {
     margin:0px;
     background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/backgrond.png") center center;
     background-size:cover;
+    width:100vw;
+    height:100vh;
 }
