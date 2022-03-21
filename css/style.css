@@ -48,6 +48,14 @@ body.on {
 	background-color: var(--o1-disabled);
 }
 
+.btn.red {
+	background-color: var(--o2);
+}
+
+.btn.blue:hover {
+	background-color: var(--o2-disabled);
+}
+
 .container {
 	max-width: 1000px;
 	margin: 0 auto;
