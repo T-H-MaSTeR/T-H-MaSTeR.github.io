@@ -16,13 +16,15 @@
 	* button, 
 	*/
 	--third: #9c59b6;
-	--third-disabled: #9c59b6;
+	--third-disabled: #520372;
 	/*
 	* other colors, used on random object.
 	*/
 	--o1: #00b2c9;
 	--o1-disabled: #008191;
-
+	/*
+	* other colors, used on random object.
+	*/
 	--o2: #FF2D00;
-	--o2-disabled: #FF2D00;
+	--o2-disabled: #991e03;
 }
