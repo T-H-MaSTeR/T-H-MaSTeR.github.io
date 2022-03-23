@@ -55,7 +55,12 @@
                     <div class="commands-item">
                         <span class="commands-t">Member Commands</span>
                         <div class="commands-buttons">
-                            <div class="error"><b>/Bot:</b> <small>Bot Commands(Ping | Uptime | Help | invite | Servers)</small> </div>
+                            <div class="error"><p id="/BotDemo" onclick="myFunction()">/Bot</p></div>
+							<script>
+								function myFunction() {
+								  document.getElementById("/BotDemo").innerHTML = "Bot Commands(Ping | Uptime | Help | invite | Servers)";
+								}
+								</script>
                         </div>
 						<div class="commands-buttons">
                             <div class="error"><b>/Server:</b> <small>Server Commands(information | Stats | Avatar | Banner)</small></div>
