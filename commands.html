@@ -53,7 +53,15 @@
             <div class="container">
                 <div class="commands-items">
                     <div class="commands-item">
-                        <span class="commands-t">Member Commands(Click on them to see the description of the commands.)</span>
+<!--                        <span class="commands-t">Member Commands(Click on them to see the description of the commands.)</span> -->
+                        <div class="commands-buttons">
+                            <div class="success"><p id="MemeberCMD" onclick="MemeberCMD()">Member Commands (Click Here)</p></div>
+							<script>
+								function MemeberCMD() {
+								  document.getElementById("MemeberCMD").innerHTML = "Click on the commands to see their description";
+								}
+							</script>
+                        </div>
                         <div class="commands-buttons">
                             <div class="error"><p id="/BotDemo" onclick="BotDemo()">/Bot</p></div>
 							<script>
