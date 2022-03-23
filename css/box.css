@@ -1,43 +1,45 @@
-/* Content Boxes
------------------------------------------------------------- */
- 
-.content-box-blue,
-.content-box-gray,
-.content-box-green,
-.content-box-purple,
-.content-box-red,
-.content-box-yellow {
-    margin: 0 0 25px;
-    overflow: hidden;
-    padding: 20px;
+body { margin: 0; border: 0; padding: 0; }
+    
+#container{ 
+  margin:0 auto;
+  margin-top:40px;
+  width:260px;
 }
- 
-.content-box-blue {
-    background-color: #d8ecf7;
-    border: 1px solid #afcde3;
+
+.info {
+  padding: 5px;
+  border: 1px solid #DEDEDE; 
+  margin: 5px 0;
+  background: #EFEFEF;
+  color: #222222;
+  text-align: center;
 }
- 
-.content-box-gray {
-    background-color: #e2e2e2;
-    border: 1px solid #bdbdbd;
+
+.warning {
+  padding: 5px;
+  border: 1px solid #DEDEDE; 
+  margin: 5px 0;      
+  background: #FFFFCC;
+  color: #222222;
+  text-align: center;
 }
- 
-.content-box-green {
-    background-color: #d9edc2;
-    border: 1px solid #b2ce96;
+
+.success {
+  padding: 5px;
+  border: 1px solid #349534; 
+  margin: 5px 0;      
+  background: #C9FFCA;
+  color: #008000;
+  font-weight: bold;
+  text-align: center;
 }
- 
-.content-box-purple {
-    background-color: #e2e2f9;
-    border: 1px solid #bebde9;
-}
- 
-.content-box-red {
-    background-color: #f9dbdb;
-    border: 1px solid #e9b3b3;
-}
- 
-.content-box-yellow {
-    background-color: #fef5c4;
-    border: 1px solid #fadf98;
+
+.error {
+  padding: 5px;
+  border: 1px solid #CC0000; 
+  margin: 5px 0;      
+  background: #F7CBCA;
+  color: #CC0000;
+  font-weight: bold;
+  text-align: center;
 }
