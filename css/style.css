@@ -56,6 +56,14 @@ body.on {
 	background-color: var(--o2-disabled);
 }
 
+.btn.pink {
+	background-color: var(--o3);
+}
+
+.btn.pink:hover {
+	background-color: var(--o3-disabled);
+}
+
 .container {
 	max-width: 1000px;
 	margin: 0 auto;
