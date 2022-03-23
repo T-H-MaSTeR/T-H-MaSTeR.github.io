@@ -27,4 +27,9 @@
 	*/
 	--o2: #FF2D00;
 	--o2-disabled: #991e03;
+	/*
+	* other colors, used on random object.
+	*/
+	--o3: #ff00d4;
+	--o3-disabled: #b9059b;
 }
